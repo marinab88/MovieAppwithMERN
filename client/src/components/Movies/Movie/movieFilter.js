@@ -1,0 +1,1 @@
+export const filterMovies = (query, movies) => Object.values(movies).filter(movie => movie.title.toLowerCase().includes(query.toLowerCase()));
